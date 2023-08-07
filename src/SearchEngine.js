@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import axios, {isCancel, AxiosError} from 'axios';
+import axios from 'axios';
 function SearchEngine() {
     const [city, setCity] = useState("");
   const [temperature, setTemperature] = useState(null);
